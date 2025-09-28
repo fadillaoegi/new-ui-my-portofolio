@@ -8,7 +8,50 @@
   </head>
   <body>
     <!-- HEADER SCTION -->
-    <header></header>
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4 ">
+            <a href="#" class="font-bold text-pink-300 text-lg block py-6">
+              FLdev
+            </a>
+          </div>
+
+          <div class="flex items-center">
+            <button id="humberger-menu" name="humberger-menu" type="button" class="block absolute right-4 lg:hidden">
+              <span class="hamburger-fldev transition ease-in-out duration-500 origin-top-left"></span>
+              <span class="hamburger-fldev transition ease-in-out duration-500 "></span>
+              <span class="hamburger-fldev transition ease-in-out duration-500 origin-top-left"></span>
+            </button>
+
+            <nav id="nav-menu" name="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a href="#home" class="text-base text-indigo-950 mx-8 flex py-2 group-hover:text-pink-300">Home</a>
+                </li>
+                <li class="group">
+                  <a href="#about" class="text-base text-indigo-950 mx-8 flex py-2 group-hover:text-pink-300">About</a>
+                </li>
+                <li class="group">
+                  <a href="#portfolio" class="text-base text-indigo-950 mx-8 flex py-2 group-hover:text-pink-300">Portfolio</a>
+                </li>
+                 <li class="group">
+                  <a href="#client" class="text-base text-indigo-950 mx-8 flex py-2 group-hover:text-pink-300">Client</a>
+                </li>
+                 <li class="group">
+                  <a href="#blog" class="text-base text-indigo-950 mx-8 flex py-2 group-hover:text-pink-300">Blog</a>
+                </li>
+                <li class="group">
+                  <a href="#contact" class="text-base text-indigo-950 mx-8 flex py-2 group-hover:text-pink-300">Contact</a>
+                </li>
+                
+              </ul>
+            </nav>
+          </div>
+        
+        </div>
+      </div>
+    </header>
     <!-- END HEADER SCTION -->
 
     <!-- MAIN SCTION -->
@@ -19,17 +62,17 @@
           <!-- HERO GREETING -->
           <div class="flex flex-wrap">
             <div class="w-full h-full self-center px-4">
-              <h1 class="text-base font-bold text-pink-400">
-                Hello There👋,
-                <span class="">
-                  I'm Fadil Laoegi
-                  <small class="font-semibold text-indigo-950"
+              <h1 class="text-base text-pink-300">
+                Hello There 👋 , I'm 
+                <span class="block font-bold text-2xl">
+                  Fadil Laoegi
+                  <small class="text-base text-indigo-950"
                     >(FLdev)</small
                   ></span
                 >
               </h1>
-              <h2 class="">Mobile Developer | Front-end Developer</h2>
-              <p>Stay Foolish and I will make dream come true</p>
+              <h2 class="text-xl">Mobile Developer | Front-end Developer</h2>
+              <p class="text-base text-indigo-950">Stay Foolish and I will make dream come true</p>
             </div>
           </div>
           <!-- END HERO GREETING -->
@@ -48,11 +91,11 @@
         <div class="container">
           <div class="flex flex-wrap">
             <div class="w-full h-full px-4 mb-4 lg:w-1/2">
-              <h4 class="font-bold uppercase text-pink-400 text-lg mb-3">
+              <h4 class="font-bold uppercase text-pink-300 text-lg mb-3">
                 About Me
               </h4>
               <h2
-                class="font-bold text-pink-400 text-2xl mb-3 max-w-xl lg:text-3xl"
+                class="font-bold text-pink-300 text-2xl mb-3 max-w-xl lg:text-3xl"
               >
                 Hi, I'm Fadil Laoegi
                 <small class="font-semibold text-indigo-950">(FLdev)</small>
@@ -66,7 +109,7 @@
 
             <div class="w-full px-4 lg:w-1/2">
               <h3
-                class="font-bold text-pink-400 text-lg mb-3 lg:text-3xl lg: pt-10"
+                class="font-bold text-pink-300 text-lg mb-3 lg:text-3xl lg: pt-10" 
               >
                 My Social Media
               </h3>
@@ -145,5 +188,7 @@
     <!-- FOOTER SECTION -->
     <footer></footer>
     <!-- END FOOTER SCTION -->
+
+    <script src="src/js/main.js"></script>
   </body>
 </html>
